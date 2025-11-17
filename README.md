@@ -18,9 +18,8 @@ It follows the requirements of the *DSC212: Graph Theory* research assignment an
 
 The modularity matrix is defined as:
 
-\[
-B = A - \frac{kk^\top}{2m}
-\]
+$B = A - \frac{kk^\top}{2m}$
+
 
 where  
 - \(A\): adjacency matrix  
@@ -34,9 +33,8 @@ Procedure:
 3. Use \(\mathrm{sign}(u_1)\) for bipartition.
 4. Apply recursive bisection only when:
 
-\[
-\lambda_1 > 0
-\]
+$\lambda_1 > 0$
+
 
 ---
 
@@ -46,9 +44,7 @@ Procedure:
 - Maintain **stable spring layout** for node positions.
 - Annotate each split with modularity gain:
 
-\[
-\Delta Q = \frac{s^\top B s}{4m}
-\]
+$\Delta Q = \frac{s^\top B s}{4m}$
 
 ---
 
@@ -115,22 +111,16 @@ Include discussion on:
 
 ### Modularity Matrix
 
-$
-B = A - \frac{kk^\top}{2m}
-$
+$B = A - \frac{kk^\top}{2m}$
 
 ### Modularity Gain After Split
 
-\[
-\Delta Q = \frac{s^\top B s}{4m}
-\]
+$\Delta Q = \frac{s^\top B s}{4m}$
 
 ### Stopping Criterion
 
-\[
-\lambda_1 \le 0 \quad \Rightarrow \quad \text{no further split}
-\]
+$\lambda_1 \le 0 \quad \Rightarrow \quad \text{no further split}$
 
 ---
 
-## Repository Structure (Suggested)
+
